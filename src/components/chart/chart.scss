@@ -1,0 +1,30 @@
+.chart {
+    flex: 4;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    padding: 10px;
+    color: gray;
+
+    .title {
+        margin-bottom: 20px;
+        font-size: 1.5em; // Ajuste del tamaño de la fuente
+        font-weight: bold; // Negrita para resaltar el título
+    }
+
+    .chartGrid {
+        stroke: rgb(228, 225, 225);
+    }
+
+    .custom-tooltip {
+        background-color: white; // Fondo blanco para mejor visibilidad
+        border: 1px solid rgba(0, 0, 0, 0.2); // Borde ligero
+        padding: 5px; // Espaciado interno
+        border-radius: 4px; // Bordes redondeados
+        font-size: 0.9em; // Tamaño de la fuente más pequeño para el tooltip
+        color: black; // Color del texto
+    }
+
+    .recharts-tooltip-wrapper {
+        text-align: left; // Alineación del texto en el tooltip
+    }
+}

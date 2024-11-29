@@ -1,0 +1,97 @@
+// Variables
+$primary-color: #6a1b9a;
+$secondary-color: #f3e5f5;
+$background-color: #fafafa;
+$text-color: #333;
+$border-color: #ddd;
+
+// Contenedor principal
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, $primary-color, $secondary-color);
+  font-family: "Arial", sans-serif;
+}
+
+// Tarjeta de login
+.login-card {
+  background: $background-color;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+// Título
+.login-title {
+  font-size: 2rem;
+  color: $primary-color;
+  margin-bottom: 1.5rem;
+}
+
+// Formulario
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    label {
+      font-size: 0.9rem;
+      color: $text-color;
+      margin-bottom: 0.5rem;
+    }
+    input {
+      padding: 0.8rem;
+      border: 1px solid $border-color;
+      border-radius: 4px;
+      font-size: 1rem;
+      &:focus {
+        border-color: $primary-color;
+        outline: none;
+      }
+    }
+  }
+
+  .password-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    input {
+      flex: 1;
+    }
+
+    .toggle-password {
+      position: absolute;
+      right: 10px;
+      background: none;
+      border: none;
+      color: $primary-color;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+// Botón de inicio de sesión
+.login-button {
+  background: $primary-color;
+  color: #fff;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+
+  &:hover {
+    background: #581574; // Color más oscuro definido manualmente
+  }
+}

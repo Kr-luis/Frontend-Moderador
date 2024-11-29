@@ -1,0 +1,108 @@
+.app.dark{
+    background-color: #222;
+    color: lightgray;
+
+
+    .chartGrid{
+        stroke: rgba(228, 228, 228, 0.219);
+    }
+
+    .table{
+        background-color: #111;
+        
+        .tableCell{
+            color: lightgray;
+        }
+        
+    }
+
+    .navbar{
+        color: lightgray;
+        border-color: #444;
+
+        .search{
+            border-color: rgba(211, 211, 211, 0);
+            input[type="text"]{
+                color: lightgray;
+            }
+        }
+    }
+
+
+
+    .sidebar{
+        background-color: #222;
+        border-color: #444;
+
+
+        .top{
+            .logo{
+                color: lightgray;
+            }
+        }
+        hr{
+            border-color: #444;
+        }
+
+        ul{
+            li{
+                &:hover {
+                    background-color: #333;
+                }
+
+                .icon{
+                    color: lightgray;
+                }
+            }
+        }
+    }
+    .datatable{
+        background-color: #222;
+        .datagrid{
+            color: lightgray;
+            border: none;
+
+
+            .viewButton,
+            .deleteButton,
+            .cellWithStatus{
+                color: lightgray;
+                border: none;
+            }
+            .MuiDataGrid-columnHeaders {
+                color: rgb(19, 18, 18);
+            }
+            MuiDataGrid-row {
+                color: white; 
+            }
+                
+        }
+    }
+
+    input{
+        background-color: transparent;
+    }
+    .new{
+        background-color: #333;
+    }
+
+    .profile{
+        background-color: #333;
+        .profileContent{
+            background-color: #222;
+
+            .title{
+                color: lightgray;
+            }
+
+            .name{
+                color: lightgray;
+
+                
+            }
+            .info{
+                color: lightgray;
+            }
+        }
+    }
+}
