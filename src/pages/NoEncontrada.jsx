@@ -1,11 +1,11 @@
-import notfound from '/public/images/notfound.jpg'
+import notfound from '../assets/images/notfound.jpg'
 import {Link} from 'react-router-dom'
 
 
 export const NoEncontrada = () => {
     return (
         
-        <div className="min-h-screen w-full flex justify-center items-center bg-[url('/public/images/olvidarcontra.jpg')] bg-no-repeat bg-cover bg-center">
+        <div className="min-h-screen w-full flex justify-center items-center bg-[url('../assets/images/olvidarcontra.jpg')] bg-no-repeat bg-cover bg-center">
         <div className="bg-gray-900 bg-opacity-90 p-10 rounded-lg shadow-lg w-11/12 max-w-md">
 
             <img class="object-cover h-80 w-80 rounded-full border-4 border-solid border-slate-600" src={notfound} alt="image description"/>
