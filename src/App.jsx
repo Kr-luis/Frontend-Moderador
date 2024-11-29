@@ -1,34 +1,34 @@
 import './App.css';
-import { PaginaInicial } from './pages/PaginaInicial.jsx';
-import { Productos } from './pages/Productos.jsx';
-import Ingresar from './pages/Ingresar.jsx';
-import { Registrar } from './pages/Registrar.jsx';
+// import { PaginaInicial } from './pages/PaginaInicial.jsx';
+// import { Productos } from './pages/Productos.jsx';
+// import Ingresar from './pages/Ingresar.jsx';
+// import { Registrar } from './pages/Registrar.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from '../context/AuthProvider';
 import Auth from './layout/Auth';
-import { PrivateRoute } from './routes/PrivateRoute.jsx';
-import Forgot from './pages/Forgot.jsx';
+// import { PrivateRoute } from './routes/PrivateRoute.jsx';
+// import Forgot from './pages/Forgot.jsx';
 import { NoEncontrada } from './pages/NoEncontrada.jsx';
-import { Confirmar } from './pages/ConfirmarEmail';
-import { Confirmartienda } from './pages/confirmartienda.jsx';
-import Restablecer from './pages/Restablecer';
-import Listar from './pages/Listar.jsx';
-import Crear from './pages/Crear.jsx';
-import BuscarProducto from './pages/BuscarProducto.jsx';
-import Dashboard from './layout/Dashboard.jsx';
-import DashboardAdmin from './layout/DashboardAdmin.jsx';
-import Listartienda from './pages/Listartienda.jsx';
-import Confirmacion_registro_tienda from './pages/Confirmacion_registro_tienda.jsx';
-import CrearProducto from './pages/CrearProductos.jsx';
-import AdministrarTienda from './pages/AdministrarTienda.jsx';
-import AdministrarProducto from './pages/AdministrarProducto.jsx';
-import Terminos from './pages/Terminos.jsx';
-import ApkDownload from './pages/ApkDownload.jsx';
-import Moderadores from './pages/Moderadores.jsx';
-import CrearModerador from './pages/CrearModerador.jsx';
-import Listartiendaadmin from './pages/Listatiendaadmin.jsx';
-import TablaProductosAdmin from './components/TablaProductosAdmin.jsx';
-import Listarproductosadmin from './pages/Listaproductosadmin.jsx';
+// import { Confirmar } from './pages/ConfirmarEmail';
+// import { Confirmartienda } from './pages/confirmartienda.jsx';
+// import Restablecer from './pages/Restablecer';
+// import Listar from './pages/Listar.jsx';
+// import Crear from './pages/Crear.jsx';
+// import BuscarProducto from './pages/BuscarProducto.jsx';
+// import Dashboard from './layout/Dashboard.jsx';
+// import DashboardAdmin from './layout/DashboardAdmin.jsx';
+// import Listartienda from './pages/Listartienda.jsx';
+// import Confirmacion_registro_tienda from './pages/Confirmacion_registro_tienda.jsx';
+// import CrearProducto from './pages/CrearProductos.jsx';
+// import AdministrarTienda from './pages/AdministrarTienda.jsx';
+// import AdministrarProducto from './pages/AdministrarProducto.jsx';
+// import Terminos from './pages/Terminos.jsx';
+// import ApkDownload from './pages/ApkDownload.jsx';
+// import Moderadores from './pages/Moderadores.jsx';
+// import CrearModerador from './pages/CrearModerador.jsx';
+// import Listartiendaadmin from './pages/Listatiendaadmin.jsx';
+// import TablaProductosAdmin from './components/TablaProductosAdmin.jsx';
+// import Listarproductosadmin from './pages/Listaproductosadmin.jsx';
 import Home from "./pages/Administrador/Home.jsx"
 import List from './pages/list/List.jsx';
 import Single from './pages/single/Single.jsx'
@@ -57,8 +57,8 @@ function App() {
           <Routes>
             <Route index element={<Lmod />} />
             <Route path="/" element={<Auth />}>
-              <Route path="ingresar" element={<Ingresar />} />
-              <Route path="registrar" element={<Registrar />} />
+              {/* <Route path="ingresar" element={<Ingresar />} /> */}
+              {/* <Route path="registrar" element={<Registrar />} />
               <Route path="usuario/confirmar/:token" element={<Confirmar />} />
               <Route path="/confirmartienda/:tokentienda" element={<Confirmartienda />} />
               <Route path="forgot/:id" element={<Forgot />} />
@@ -79,8 +79,8 @@ function App() {
               <Route path="dashboard/administrartienda" element={<AdministrarTienda />} />
               <Route path="dashboard/actualizarproducto" element={<AdministrarProducto />} />
               <Route path="terminos" element={<Terminos />} />
-              <Route path="apk-download" element={<ApkDownload />} />
-              <Route path="moderadores" element={<Moderadores />} />
+              <Route path="apk-download" element={<ApkDownload />} /> */}
+              {/* <Route path="moderadores" element={<Moderadores />} /> */}
               <Route path="home" element={<Home />} />
               <Route path="login" element={<Login />} />
               <Route path="loginMod" element={<Lmod />} />
