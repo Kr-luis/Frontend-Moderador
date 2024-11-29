@@ -1,6 +1,6 @@
 import "./users.scss"
 import Sidebar from "../../components/sidebar/Sidebar"
-import Navbar from "../../components/navbar/navbar"
+import Navbar from "../../components/navbar/Navbar"
 import Datausuarios from "../../components/datausers/Datausers"
 
 const Mods = () => {
