@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "../../components/sidebar/Sidebar";
-import Navbar from "../../components/navbar/navbar";
+import Navbar from "../../components/navbar/Navbar";
 import Widget from "../../components/widget/Widget";
 import "./home.scss"
 import Featured from "../../components/featured/Featured";

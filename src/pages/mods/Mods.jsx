@@ -1,6 +1,6 @@
 import "./mods.scss"
 import Sidebar from "../../components/sidebar/Sidebar"
-import Navbar from "../../components/navbar/navbar"
+import Navbar from "../../components/navbar/Navbar"
 import Dataimportant from "../../components/dataimportant/Dataimportant"
 
 const Mods = () => {

@@ -1,6 +1,6 @@
 import "./single.scss";
 import Sidebar from "../../components/sidebar/Sidebar";
-import Navbar from "../../components/navbar/navbar";
+import Navbar from "../../components/navbar/Navbar";
 import Chart from "../../components/chart/Chart";
 import { useParams } from "react-router-dom"; // Importar useParams
 import { useState, useEffect } from "react";
