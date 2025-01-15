@@ -160,14 +160,6 @@ export const moderadorInputs = [
     placeholder: "Ecuador",
   },
   {
-    id: 8,
-    label: "Rol",
-    name: "role",
-    type: "select",
-    options: ["moderador", "administrador"],
-    default: "moderador", // Por defecto, asigna "moderador"
-  },
-  {
     id: 9,
     label: "Estado",
     name: "estado",
