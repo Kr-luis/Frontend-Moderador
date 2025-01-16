@@ -58,7 +58,7 @@ const List = () => {
         <TableBody>
           {rows.map((row) => (
             <TableRow key={row._id}> {/* Usamos _id para identificar cada producto */}
-              <TableCell className="tableCell">{row.Nombre_producto}</TableCell>
+              <TableCell className="tableCell">{row.Nombre}</TableCell>
               <TableCell className="tableCell">{row.Categoria}</TableCell>
               <TableCell className="tableCell">
                 <div className="cellWrapper">

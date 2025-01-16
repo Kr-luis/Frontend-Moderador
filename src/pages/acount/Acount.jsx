@@ -49,7 +49,7 @@ const Acount = () => {
         <Navbar />
         <div className="top">
           <div className="left">
-            <div className="editButton">Edit</div>
+            {/* <div className="editButton">Edit</div> */}
             <h1 className="title">Información del Moderador</h1>
             <div className="item">
               <img
@@ -75,10 +75,10 @@ const Acount = () => {
                   <span className="itemKey">Pais:</span>
                   <span className="itemValue">{moderador.pais}</span>
                 </div>
-                <div className="detailItem">
+                {/* <div className="detailItem">
                   <span className="itemKey">Rol:</span>
-                  <span className="itemValue">{moderador.role}</span>
-                </div>
+                  <span className="itemValue">{moderador.role}</span> No aplica debido a que no hay mas roles de administrador
+                </div> */}
                 <div className="detailItem">
                   <span className="itemKey">Estado:</span>
                   <span className="itemValue">

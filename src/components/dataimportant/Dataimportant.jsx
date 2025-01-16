@@ -94,10 +94,10 @@ const confirmarEliminacion = (idModerador) => {
   return (
     <div className="datatable">
       <div className="datatableTitle">
-        Añadir Nuevo Moderador
-        <Link to="/moderadores/add" className="link">
+        Moderadores Activos
+        {/* <Link to="/moderadores/add" className="link">
           Registrar Nuevo
-        </Link>
+        </Link> */}
       </div>
       <DataGrid
         className="datagrid"

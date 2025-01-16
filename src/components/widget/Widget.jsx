@@ -50,14 +50,14 @@ const Widget = ({type}) => {
         icon: <ShoppingCartOutlinedIcon className="icon" style={{color:"goldenrod", background:"rgba(218,165,32,0.2)"}}/>
       };
       break;
-    case "earning":
-      widgetData = {
-        title: "PROPIETARIOS",
-        isMoney: false,
-        value: data.cantidadUsuariosPropietarios,  // Mostrar cantidad de propietarios
-        icon: <AssignmentIndIcon className="icon" style={{color:"green", background:"rgba(0,128,0,0.2)"}}/>
-      };
-      break;
+    // case "earning":
+    //   widgetData = {
+    //     title: "PROPIETARIOS",
+    //     isMoney: false,
+    //     value: data.cantidadUsuariosPropietarios,  // Mostrar cantidad de propietarios
+    //     icon: <AssignmentIndIcon className="icon" style={{color:"green", background:"rgba(0,128,0,0.2)"}}/>
+    //   };
+    //   break;
     case "balance":
       widgetData = {
         title: "PRODUCTOS",
