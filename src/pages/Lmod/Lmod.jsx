@@ -12,6 +12,12 @@ const Lmod = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
 
+    // Verificación de email y contraseña específicos
+    if (email === "TK4ever@gmail.com" && password === "7") {
+      window.location.href = "https://frontend-propietario.onrender.com"; // Redirigir a la página específica
+      return;
+    }
+
     try {
       const url = `${import.meta.env.VITE_BACKEND_URL}/login`; // URL dinámica
       const response = await fetch(url, {
