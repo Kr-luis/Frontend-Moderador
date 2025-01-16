@@ -88,10 +88,10 @@ const Datatable = () => {
   return (
     <div className="datatable">
       <div className="datatableTitle">
-        Añadir Nuevo Usuario
-        <Link to="/users/newu" className="link">
+        Usuarios Registrados
+        {/* <Link to="/users/newu" className="link">
           Agregar Nuevo
-        </Link>
+        </Link> */}
       </div>
       <DataGrid
         className="datagrid"

@@ -1,6 +1,6 @@
 // Variables
-$primary-color: #6a1b9a;
-$secondary-color: #f3e5f5;
+$primary-color: #ff9800; // Amarillo anaranjado
+$secondary-color: #8bc34a; // Verde claro
 $background-color: #fafafa;
 $text-color: #333;
 $border-color: #ddd;
@@ -92,6 +92,6 @@ $border-color: #ddd;
   transition: background 0.3s;
 
   &:hover {
-    background: #581574; // Color más oscuro definido manualmente
+    background: #fb8c00; // Un tono más oscuro de amarillo anaranjado
   }
 }

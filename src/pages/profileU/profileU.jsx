@@ -44,18 +44,23 @@ const ProfileU = () => {
         <div className="profileContent">
           <h1 className="title">Perfil del Usuario</h1>
           <div className="profileDetails">
+            {/* Verifica si existe la imagen del usuario y usa una imagen por defecto si no */}
             <img
-              src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              src={usuario.ImagenUrl || "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"}
               alt="Foto del Usuario"
               className="profileImg"
             />
             <div className="details">
+              {/* Verifica si los datos existen antes de mostrarlos */}
               <h1 className="name">{usuario.nombre} {usuario.apellido}</h1>
-              <p className="info"><strong>Email:</strong> {usuario.email}</p>
-              <p className="info"><strong>Estado:</strong> {usuario.estado === "activo" ? "Activo" : "Inactivo"}</p>
+              <p className="info"><strong>Email:</strong> {usuario.email || "No disponible"}</p>
+              {/* Verificación adicional para el estado */}
+              <p className="info">
+                <strong>Estado:</strong> {usuario.estado === "activo" ? "Activo" : usuario.estado === "inactivo" ? "Inactivo" : "Activo"}
+              </p>
               <p className="info">
                 <strong>Propietario:</strong> 
-                {usuario.propietario !== undefined ? usuario.propietario.toString() : "No definido"}
+                {usuario.propietario !== undefined ? (usuario.propietario ? "Sí" : "No") : "No definido"}
               </p>
             </div>
           </div>

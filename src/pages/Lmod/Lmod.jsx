@@ -47,7 +47,7 @@ const Lmod = () => {
   return (
     <div className="login-container">
       <div className="login-card">
-        <h1 className="login-title">QuitoTech</h1>
+        <h1 className="login-title">QuitoTech Administrativo</h1>
         <form onSubmit={handleLogin} className="login-form">
           {errorMessage && <p className="error-message">{errorMessage}</p>}
           <div className="input-group">
